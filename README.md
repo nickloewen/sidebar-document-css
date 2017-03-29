@@ -10,9 +10,9 @@ Naturally this layout is not suited to small screen widths. Currently it is not 
 
 Use second level headings to place a heading in the margin. Use third level headings to add an arrow in front of this, ie:
 
->   Heading 2
+>   Heading 2  
 > → Heading 3
 
 ## Examples
 
-See `examples` for an example documents in markdown and html format, and for the original PDF on which they were based.
+See `/examples` for an example documents in markdown and html format, and for the original PDF on which they were based.
