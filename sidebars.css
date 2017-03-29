@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  margin: 0 10% 6em 30%;
+  line-height: 1.2;
+  position: relative;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 4rem 0 0;
+}
+
+h1:before {
+  content: ' ';
+  background: white;
+  height: 6em;
+  width: 1em;
+  display: block;
+  float: left;
+  position: absolute;
+  left: -2em;
+  top: -2em;
+}
+
+h1:after {
+  content: ' ';
+  background: black;
+  height: 100vh;
+  width: 1px;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 25%;
+  z-index: -1;
+}
+
+h2, h3 {
+  float: left;
+  margin-left: calc(-28% - 2em);
+  vertical-align: top;
+  margin-top: 4em;
+  font-size: 1em;
+
+  padding-right: 2em;
+  /*
+  border-right: 1px solid;
+  height: 10em;
+  */
+  width: 20%;
+
+  border-top: 2em solid white;
+}
+
+h2 + p, h3 + p,
+h2 + blockquote, h3 + blockquote {
+  margin-top: 6em;
+}
+
+p + p, blockquote + blockquote, ul + p, ol + p {
+  margin-top: 1em;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+ul, ol {
+  margin: 2em 2em 0 2em;
+}
+
+li li {
+  margin-left: 1em;
+}
+
+/*
+h2:before, h3:before {
+  content: ' ';
+  width: 100%;
+  display: block;
+  height: 2em;
+  border-right: 1em solid white;
+  padding-right: 1.5em;
+}
+*/
+
+body:after {
+  content: ' ';
+  width: 100%;
+  display: block;
+  height: 6em;
+  background: white;
+  position: absolute;
+  bottom: -6em;
+  left: -10em;
+}
+
+h3:before {
+  content: '→';
+  display: inline-block;
+  width: 1.5em;
+  margin-left: -1.5em
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li:before {
+  content: "\2022";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em
+}
